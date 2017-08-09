@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.blancasoto.gpswarning_bm.ConfiguracionActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/rl_aceder"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/tv_mens_sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/mens_acceder"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/et_nombreUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="@string/txt_nombreUsuario"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@+id/tv_mens_sesion"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/et_correoUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/txt_correoUsuario"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@+id/et_nombreUsuario"
+            android:layout_alignStart="@+id/et_nombreUsuario" />
+
+        <EditText
+            android:id="@+id/et_contrasenaUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/et_correoUsuario"
+            android:layout_below="@+id/et_correoUsuario"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/txt_contrasenaUsuario"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/bt_aceptarLogUsuario"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_yaTengoCuenta"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txt_crearCuenta" />
+        <TextView
+            android:id="@+id/tv_yaTengoCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_yaTengoCuenta"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/tv_acceder"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_acceder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:paddingBottom="5dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="5dp"
+            android:text="@string/txt_acceder"
+            android:textColor="@android:color/holo_blue_bright"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ly_mensTonoAlarma">
+
+    <TextView
+        android:id="@+id/txt_tonoAlarma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/mens_tonoAlarma"
+        android:textAlignment="center"/>
+    </RelativeLayout>
+
+</LinearLayout>

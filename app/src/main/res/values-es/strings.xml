@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">configuraciones</string>
+    <string name="app_devel">Blanca Y Mar</string>
+    <string name="app_ver">Ver. 1.0.0</string>
+    <string name="iniciar_actualizaciones">comenzar</string>
+    <string name="mens_acceder">Crea tu cuenta o inicia sesion para sincronizar todas tus rutas</string>
+    <string name="mens_alarmaEncendida">Alarma programada</string>
+    <string name="mens_camposIncompletos">Hey! Falta llenar algunos campos</string>
+    <string name="mens_datosGuardados">Datos guardados</string>
+    <string name="mens_destinoAlcanzado">Hey! Estas proximo a tu destino</string>
+    <string name="mens_eligeRuta">Hey! Primero elije tu destino</string>
+    <string name="mens_gpsDesactivado">Hey! Enciende tu GPS</string>
+    <string name="mens_loseta1">solo arrastra un marcado final</string>
+    <string name="mens_loseta2">Descanza, nosotros nos encargamos del resto</string>
+    <string name="mens_loseta3">Crea una cuenta para sincronizar todas tus rutas</string>
+    <string name="mens_loseta4">Comparte tu ubicación con tus amigos</string>
+    <string name="mens_marcadorInicioAgregado">Marcador de inicio añadido, arrastralo para editarlo</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.blancasoto.gpswarning_bm.UnicaRutaActivity"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_nombreRuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nombreRuta"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/et_destinoRuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_destinoRuta"
+        android:inputType="text"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/ly_avisarAntesDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_avisarAntesDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_avisarAntesDe"/>
+
+        <NumberPicker
+            android:id="@+id/np_avisarAntesDeNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/np_avisarAntesDeUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/sw_activaRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_aceptarCancelarRuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_aceptarRuta"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/txt_aceptar" />
+
+        <Button
+            android:id="@+id/bt_cancelarRuta"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/txt_cancelar" />
+
+    </LinearLayout>
+
+</LinearLayout>
